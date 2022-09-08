@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+	font-family: verdana, sans-serif;
+	margin: 0;
+	color: #666;
+	background-image: url(../img/fond.png);
+}
+
+header, main {
+	max-width: 750px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+/* HEADER */
+header {
+	background-color: #B8CB21;
+	padding: 25px;
+}
+
+header nav {
+	float: right;
+	padding: 50px 0;
+}
+
+header nav a {
+	color: #2C4726;
+	text-transform: uppercase;/*transforme mon texte en majuscule /= lowercase pour minuscule*/
+	padding: 10px;
+	margin: 15px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+}
+
+/* MAIN */
+
+main {
+	background-color: white;
+	padding: 25px;
+}
+
+h2 {
+	font-family: "Oswald", sans-serif;
+	color: #B8CB21;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+main a {
+	float: right;
+	text-decoration: none;
+	color: white;
+	background-color: #B8CB21;
+	padding: 10px;
+}
+article {
+    padding-bottom: 5%;
+}
+article img {
+	float: left;
+	width: 25%;
+	margin-right: 10px;
+}
+
+/* LICENCE */
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+#licence img {
+    width: 50px;
+}
